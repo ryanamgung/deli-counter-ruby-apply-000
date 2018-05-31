@@ -1,6 +1,6 @@
 # Write your code here.
 katz_deli = []
-
+Number = 0
 def line(line)
   array = []
   if line.length == 0
@@ -17,7 +17,6 @@ def line(line)
 end
 
 def take_a_number()
-  Number = 0
   Number += 1
   puts "Welcome, you are number #{Number} in line."
 end
