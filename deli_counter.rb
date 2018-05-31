@@ -16,9 +16,10 @@ def line(line)
   end
 end
 
-def take_a_number(line, name)
-  line.push("#{name}")
-  puts "Welcome, #{name}. You are number #{line.length} in line."
+def take_a_number()
+  Number = 0
+  Number += 1
+  puts "Welcome, you are number #{Number} in line."
 end
 
 def now_serving(line)
